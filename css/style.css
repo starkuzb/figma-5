@@ -18,6 +18,72 @@
    }
    
    body{
-    font-family: sans-serif;
+    color: white;
+    background-color: #19191B;
+    font-family:sans-serif ;
+   }
+   .container{
+    width: 1140px;
+    margin: 0 auto;
+   }
+   .navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+   }
+   .nav-title{
+    color: white;
+   }
+   .nav-list{
+    display: flex;
+   }
+   .nav-link{
+    color: white; 
+    margin: 0 15px;
+    transition: .65s;
+   }
+   .nav-link:hover{
+    color: red;
+   }
+   .nav-wrapper{
+    background: #F04037;
+    border: 1px solid #C31A12;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    transition: .65s;
+   }
+   .nav-wrapper:hover{
+    color: red;
+    background-color: black;
+   }
+   .page-text, .page-photo{
+    width: 45%;
+   }
+   .main .container{
+    display: flex; 
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 80px;
    }
    
+   .page-photo{
+    background-image: url("../img/Oval\ \(2\).png") ,
+    url("../img/Oval\ Copy.png");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right, right 110px;
+    background-size: 488px , 488px;
+   }
+   
+   .form{
+    margin-left: 350px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 380px;
+    height: 487px;
+    background-color: white;
+
+   }
